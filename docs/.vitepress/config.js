@@ -16,6 +16,12 @@ export default defineConfig({
     sidebar: {
       '/posts/': [
         {
+          text: 'AI Agent 开发',
+          items: [
+            { text: 'AI Agent 开发完全指南', link: '/posts/ai-agent-development-guide' }
+          ]
+        },
+        {
           text: 'AI 基础',
           items: [
             { text: '开始学习', link: '/posts/getting-started' }
