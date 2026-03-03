@@ -4,6 +4,7 @@ export default defineConfig({
   base: '/ai-learning-blog/',
   title: 'AI 学习笔记',
   description: 'Linc 的 AI 技术学习与实践',
+  srcExclude: ['**/README.md'],
   
   themeConfig: {
     nav: [
